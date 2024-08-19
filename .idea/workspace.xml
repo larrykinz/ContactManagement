@@ -4,29 +4,172 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3bb2cc3d-ff6f-425d-b216-96cecde1ab91" name="Changes" comment="" />
+    <list default="true" id="3bb2cc3d-ff6f-425d-b216-96cecde1ab91" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dto/request/AddContactRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dto/response/AddContactResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/services/implementation/ContactImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/services/interfaces/UserSevices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/web/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2koYT84A3DMUZMkZGzpitNT1PWv" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.UserImplTest.DeleteUserTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserImplTest.addUserTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserImplTest.deleteUserTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserImplTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserImplTest.searchAllUsersTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserImplTest.testToAddAlreadyExistingUserThrowsException.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserImplTest.updateUserTest.executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.Main.executor&quot;: &quot;Run&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/DELL/ContactManagementSystem/src/test/java&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.example.services.interfaces" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example.services.implementation" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.UserImplTest.searchAllUsersTest">
+    <configuration name="UserImplTest.DeleteUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ContactManagementSystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.services.implementation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.services.implementation" />
+      <option name="MAIN_CLASS_NAME" value="org.example.services.implementation.UserImplTest" />
+      <option name="METHOD_NAME" value="DeleteUserTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserImplTest.deleteUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ContactManagementSystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.services.implementation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.services.implementation" />
+      <option name="MAIN_CLASS_NAME" value="org.example.services.implementation.UserImplTest" />
+      <option name="METHOD_NAME" value="deleteUserTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserImplTest.searchAllUsersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ContactManagementSystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.services.implementation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.services.implementation" />
+      <option name="MAIN_CLASS_NAME" value="org.example.services.implementation.UserImplTest" />
+      <option name="METHOD_NAME" value="searchAllUsersTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserImplTest.testToAddAlreadyExistingUserThrowsException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ContactManagementSystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.services.implementation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.services.implementation" />
+      <option name="MAIN_CLASS_NAME" value="org.example.services.implementation.UserImplTest" />
+      <option name="METHOD_NAME" value="testToAddAlreadyExistingUserThrowsException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserImplTest.updateUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ContactManagementSystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.services.implementation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.services.implementation" />
+      <option name="MAIN_CLASS_NAME" value="org.example.services.implementation.UserImplTest" />
+      <option name="METHOD_NAME" value="updateUserTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UserImplTest.searchAllUsersTest" />
+        <item itemvalue="JUnit.UserImplTest.updateUserTest" />
+        <item itemvalue="JUnit.UserImplTest.DeleteUserTest" />
+        <item itemvalue="JUnit.UserImplTest.deleteUserTest" />
+        <item itemvalue="JUnit.UserImplTest.testToAddAlreadyExistingUserThrowsException" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -43,7 +186,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1723951404617</updated>
-      <workItem from="1723951405699" duration="11000" />
+      <workItem from="1723951405699" duration="19263000" />
+      <workItem from="1723998806614" duration="6898000" />
+      <workItem from="1724029684589" duration="608000" />
+      <workItem from="1724039185432" duration="558000" />
     </task>
     <servers />
   </component>
